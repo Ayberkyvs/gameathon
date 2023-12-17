@@ -1,0 +1,23 @@
+.fa-lock {
+  font-size: 14px;
+  margin-right: 5px;
+}
+.vh-100 {
+  background-image: url("../img/svg/loginscreen.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  position: relative;
+  top: 70px;
+}
+.btn-login {
+  width: 100%;
+  font-size: 14px !important;
+  background-color: black !important;
+}
+.btn-login:hover {
+  transition: 0.2s;
+  background-color: white !important;
+  border: 1px solid black !important;
+  color: black !important;
+}

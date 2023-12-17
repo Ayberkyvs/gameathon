@@ -1,0 +1,70 @@
+.banner {
+  height: auto !important;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.application-form {
+  width: 50%;
+  height: auto;
+}
+.group-container {
+  border-bottom: 5px solid $primary-color !important;
+  box-sizing: border-box !important;
+}
+.card-header {
+  background-color: $primary-color !important;
+  height: 5px;
+}
+.form-label {
+  font-size: 16px !important;
+  margin-bottom: 10px !important;
+}
+.form-select-option {
+  padding: 10px !important;
+}
+.btn-addUser {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.userList {
+  width: 100%;
+  height: auto;
+}
+.recaptcha-container {
+  display: flex;
+  justify-content: center;
+  width: 100% !important;
+  margin-bottom: 10px;
+}
+.btnSubmit {
+  background-color: transparent !important;
+  outline: $primary-color !important;
+  border: 1px solid $primary-color !important;
+  color: $primary-color !important;
+}
+.btnSubmit:hover {
+  background-color: $primary-color !important;
+  color: white !important;
+}
+.sartname-container {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  padding: 5px;
+  input {
+    margin-right: 5px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .application-form {
+    width: 99%;
+  }
+  .banner {
+    height: 120px !important;
+  }
+}

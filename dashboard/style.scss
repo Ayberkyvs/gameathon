@@ -1,0 +1,24 @@
+.todoForm {
+  display: flex;
+  border: 1px solid red;
+  .addTodoInput {
+    display: flex;
+    flex: 1;
+  }
+  .addTodoButton {
+    flex: 0.2;
+  }
+  .checkboxDelete {
+    border: 1px solid red !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .todoForm {
+    flex-direction: column !important;
+  }
+  .addTodoInput {
+    margin-right: 0; /* Dikey düzende boşluğu kaldırın */
+    margin-bottom: 10px; /* Dikey düzende öğeler arasına boşluk ekleyin */
+  }
+}

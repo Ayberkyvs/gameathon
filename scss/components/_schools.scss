@@ -1,0 +1,38 @@
+/*for Demo Only*/
+.demo-row {
+  background-image: url("../img/svg/foot-img.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: $primary-color;
+  padding: 50px 0;
+}
+
+/*Implement*/
+.sponsor-feature {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+#id-sponsors .carousel {
+  margin-bottom: 20px;
+}
+#id-sponsors .item {
+  padding-bottom: 20px;
+}
+#id-sponsors .carousel-indicators {
+  bottom: -25px;
+}
+@media screen and (max-width: 799px) {
+  #id-sponsors .carousel {
+    margin-bottom: 0px;
+  }
+  #id-sponsors .item {
+    padding-bottom: 0px;
+  }
+}

@@ -1,0 +1,19 @@
+// Abstracts
+@import "abstracts/variables";
+
+//Base
+@import "base/reset";
+
+// Layout
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/footer";
+
+// Pages
+@import "pages/application";
+
+//layout
+@import "components/application";
+
+// Sweet Alert
+@import "../node_modules/sweetalert2/src/sweetalert2.scss";
